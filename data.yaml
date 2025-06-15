@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Levantador', 'Libero', 'bola']
+
+roboflow:
+  workspace: catart
+  project: volleyvision-ew31l
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/catart/volleyvision-ew31l/dataset/4

@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/train/images
+val: /content/valid/images
+test: /content/test/images
 
 nc: 3
 names: ['Levantador', 'Libero', 'bola']
